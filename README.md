@@ -1,9 +1,12 @@
 <h1 align="center">Brazil Safety Service - Combate a incêndio.</h1>
-![em desenvolvimento](https://img.shields.io/badge/status-em%20desnvolvimento-brightgreen)
-![license mit](https://img.shields.io/badge/license-mit-brightgreen)
+
+<div align="center" id="img">
+<img src="https://img.shields.io/badge/status-em%20desnvolvimento-brightgreen" alt="em desenvolvimento">
+<img src="https://img.shields.io/badge/license-mit-brightgreen" alt="license mit">
+</div>
 
 <p align="center">Projeto em desenvolvimento para expositivo, informativo e contato direto ao comércio a indústria de materiais de combate a incêndio, facilitando a interação do usuário ao cliente.
-Este projeto teve autorização de imagem por sua direção **BSS RIO - Brazil Safety Service** e está sendo construído a título de estudos. </p>
+Este projeto teve autorização de imagem por sua direção <strong>BSS RIO - Brazil Safety Service</strong> e está sendo construído a título de estudos. </p>
 <h4 align="center"> 
     :construction:  Projeto em construção  :construction:
 </h4>
@@ -11,7 +14,7 @@ Este projeto teve autorização de imagem por sua direção **BSS RIO - Brazil S
 <h3 align="center">:hammer: Funcionalidades do projeto</h3>
 <p align="center">
 
-- Responsividade: Este projeto está sendo construído para funcionar em diversos dispositivos.(construção)
+- Responsividade: Este projeto está sendo construído para funcionar em diversos dispositivos. (construção)
 
 - Carousel: O projeto fornece o uso de imagens em slides durante a navegação da página. (construção)
 
