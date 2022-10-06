@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+@import "./glider/glider.css";
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+    max-width: 1200px;
+    background: #1b1a1a;
+}
+header {
+    z-index: 99999;
+    position: fixed;
+    width: 100%;
+    height: 20%;
+    background: #f4f4f4;
+    color: #666666;
+}
+.logotipe {
+    position: relative;
+    top: 5px;
+    left: 25px;
+}
+.navbar-wrapper, .ul-main, .li-main {
+    position: relative;
+}
+.li-main {
+    display: inline-block;
+    position: relative;
+    bottom: 80px;
+    left: 30%;
+    padding: 20px;
+
+
+    font-size: 25px;
+    cursor: pointer;
+
+    transition: 0.4s;
+}
+.li-main:hover {
+    color: #ff0000;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.li-main:hover:not(:first-child) {
+    margin-left: 5px;
+}
+.contact {
+    border-radius: 45px;
+    color: #fff;
+    background: #000;
+}
+.contact:hover {
+    margin-left: 20px;
+
+    color: #ff0000;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.main-wrapper_services {
+    position: absolute;
+    top: 580px;
+    width: 100%;
+    height: 160%;
+
+    background-color: #e7e7e7;
+}
+article {
+    display: inline-block;
+
+    position: relative;
+    width: 500px;
+    height: 480px;
+    padding: 5px;
+    margin:20px 10px 20px 100px;
+    
+    border-radius: 25px;
+    box-shadow:  0.5px 0.5px  #000000;
+    text-align: center;
+    background-color: #ffffff;
+}
+article:last-child {
+    bottom: 18px;
+}
+.title-article {
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.image-article {
+    position: relative;
+    
+    border: 2px solid #0000002b;
+}
+.paragraph-article {
+    position: relative;
+    padding-top: 10px;
+
+    font-size: 1.2em;
+    font-weight: 400;
+}
+.readmore-article {
+    position: relative;
+    margin-top: 10px;
+    padding: 10px;
+
+    border-radius: 20px 20px;
+    background-color: #ff0000ad;
+    transition: 1s;
+}
+.readmore-article:hover {
+    transition: 1s;
+    background-color: #ff0000;
+}
+.readmore-article a {
+    color:#ffffff;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-decoration: none;
+}
+footer {
+    position: absolute;
+    top: 400%;
+    width: 100%;
+    height: 150px;
+    
+    color: #ffffff;
+    background: #000000;
+}
+.anymore-footer, .institutional-footer, .midia-footer {
+    display: inline-block;
+    margin-top: 15px;
+    
+    text-align: center;
+    list-style: none;
+}
+.institutional-footer {
+    margin-left: 22%;
+}
+.midia-footer {
+    margin-left: 20%;
+}
+.midia-footer li  {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 0 8px 0 8px;
+}
+.li-footer {
+    position: relative;
+    width: 250px;
+
+    cursor: pointer;
+    transition: 0.4s;
+}
+.li-footer:hover {
+    color: #ff0000;
+    font-weight: bold;
+    transition: 0.4s;
+}
+.copyright-footer {
+    margin-top: 25px;
+
+    text-align: center;
+}

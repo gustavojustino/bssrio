@@ -1,0 +1,52 @@
+.carousel-contain {
+    position: relative;
+    top: 130px;
+    width: 112.4%;
+    height: 350px;
+}
+.carousel-slides {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+    border-bottom: 0.1rem solid rgb(128, 128, 128);
+}
+figure {
+    position: relative;
+}
+figcaption {
+    position: relative;
+    width: 100%;
+    height: 350px;
+}
+figcaption img {
+    width: 100%;
+}
+.carousel-description {
+    position: relative;
+    bottom: 60px;
+
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.carousel-prev, .carousel-next {
+    padding: 5px;
+    margin-top: 10px;
+
+    color: white;
+    cursor: pointer;
+    background-color: rgb(128, 128, 128);
+    font-size: 2.5em;
+    opacity: 80%;
+}
+.carousel-prev:hover, .carousel-next:hover {
+    transition: 0.7s;
+    background: rgb(29, 28, 28);
+}
+
+
+.carousel-next {
+    margin-left: 94.8%;
+}
